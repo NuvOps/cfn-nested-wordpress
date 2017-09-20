@@ -416,7 +416,7 @@ Resources:
         DnsEndpoint:
           !If [ DeployCloudFront, !GetAtt [ cloudfront, Outputs.DnsEndpoint ], !GetAtt [ publicalb, Outputs.PublicAlbDnsName ] ]
         DnsHostId:
-          !If [ DeployCloudFront, 'Z2FDTNDATAQYW2', !GetAtt [ publicalb, Outputs.PublicAlbCanonicalHostedZoneId ] ]
+          !If [ DeployCloudFront, 'Z2EXJHEV35EA61', !GetAtt [ publicalb, Outputs.PublicAlbCanonicalHostedZoneId ] ]
         WPDomainName:
           !Ref WPDomainName
       TemplateURL: https://s3.amazonaws.com/nuvops-cfn/templates/wordpress/10-wp-route53.yml
