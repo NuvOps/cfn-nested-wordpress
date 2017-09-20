@@ -80,6 +80,7 @@ Review the template here [aws-refarch-wordpress-master.yaml](templates/aws-refar
 
 To launch the entire stack and deploy a WordPress site on AWS launch the master.yml file in the AWS CloudFormation console.
 
+Note. If you want to use Route53 update the line 419 (DnsHostId) in the file **wp-master.yml** with the Hosted Zone Id of your domain.
 
 
 #### Optional: Encrypting Amazon EFS Data & Metadata at Rest
