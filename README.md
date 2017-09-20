@@ -20,7 +20,7 @@ The repository consists of a set of nested templates which are run in order from
 ## Master Template
 
 The master template receives all input parameters and passes them to the appropriate nested template which are executed in order based on conditions and dependencies.
-Review the template here [aws-refarch-wordpress-master.yaml](templates/aws-refarch-wordpress-master.yaml)
+
 
 ### AWS Resources Created:
 
